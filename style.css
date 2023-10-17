@@ -2,6 +2,135 @@
     margin: 0;
     padding: 0;
 }
-.container{
+body{
     display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(127, 255, 212, 0.589); */
 }
+.container{
+    /* border: solid rgb(97, 95, 95) 5px; */
+    /* grid-gap: 2px; */
+    display: grid;
+    grid-template-rows: 20px 400px 40px 20px;
+    grid-template-columns: 60px 500px;
+    place-self: center;
+    background-color: rgba(192, 192d, 192, 0.104);
+    /* width: 580px; */
+    /* height: 361px; */
+    /* border-style: outset; */
+}
+.item{
+    text-align: center;
+    background-color:rgba(114, 114, 114, 0.404);
+}
+.item0{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:4;
+
+    
+}
+.item1{
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    /* border-right: solid black 1px; */
+   
+
+}
+.item2{
+    background-color:white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    scrollbar-width: 10px;
+    
+}
+.item3{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-items: center;
+    /* background-color: rgba(0, 255, 255, 0.288); */
+
+}
+
+canvas{
+    /* background-color: rgba(173, 249, 252, 0.719); */
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+    scrollbar-3dlight-color: black;
+
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* border: solid black 0.4px; */
+    background-color: rgb(187, 173, 173);
+    /* overflow-x: scroll; */
+}
+.item5{
+   
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:rgba(128, 128, 128, 0.356); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb { 
+  border: solid rgba(128, 128, 128, 0.527) 2px;
+  border: solid rgba(160, 152, 152, 0.534) 2px;
+  border-style:outset;
+  background-color: rgba(114, 114, 114, 0.404);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(114, 114, 114, 0.6) ; 
+}
+::-webkit-scrollbar-track-piece{
+    /* background-color: red; */
+}
+::-webkit-scrollbar-corner{
+    background-color: rgb(168, 168, 168);
+}
+/* Buttons */
+::-webkit-scrollbar-button:single-button {
+    background-color: rgba(192, 192, 192, 1);
+    border: solid black 2px;
+    border-style:outset;
+    display: block;
+    height: 13px;
+    width: 16px;
+  }
+  /* Up */
+  ::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-color: rgba(192, 192, 192, 1);
+    border: solid black 2px;
+    border-style:outset;
+  }
+  /* Down */
+  ::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-color: rgba(192, 192, 192, 1);
+    border: solid black 2px;
+    border-style:outset;
+    border-style: outset;
+  }
+  
+  
+  
+  

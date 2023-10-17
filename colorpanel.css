@@ -1,0 +1,53 @@
+.colorPanel{
+    display: grid;
+    grid-template-rows: 15px 15px;
+    grid-template-columns: 15px 15px 
+15px 15px 15px;
+    /* background-color: brown; */
+    /* border: solid black 1px; */
+    /* vertical-align: center; */
+    /* align-content: center; */
+    /* justify-self: center; */
+    /* align-items: center; */
+    grid-gap: 1px;
+     
+
+}
+.colourpanel{
+    border-right: 1px solid white;
+    border-bottom:1px outset white;
+    border-left:1px outset black;
+    border-top:1px outset black;
+}
+.color1{
+    /* border: ; */
+    background-color: black;
+}
+.color2{
+    /* border: solid black 1px; */
+    background-color: red;
+}
+.color3{
+    background-color: green;
+}
+.color4{
+    background-color: blue;
+}
+.color5{
+    background-color: brown;
+}
+.color6{
+    background-color: aqua;
+}
+.color7{
+    background-color: blueviolet;
+}
+.color8{
+    background-color: yellow;
+}
+.color9{
+    background-color: orange;
+}
+.color10{
+    background-color: lightgreen;
+}

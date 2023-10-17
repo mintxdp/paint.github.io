@@ -5,14 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colorpanel.css">
+    <link rel="stylesheet" href="menuitem.css">
+    <link rel="stylesheet" href="tools.css">
 </head>
 <body>
-    <div class="container">
-        <div class="item left-sidebar"></div>
-        <div class="item right-sidebar"></div>
-        <div class="item drawing-board"></div>
+    <div class="header">
+       Ms-Paint
     </div>
+    <div class="container">
 
+        <div class="item item0">
+            <div class="menu">
+            <div class="topitems menu1"><u>F</u>ile</div>
+            <div class="topitems menu2"><u>E</u>dit</div>
+            <div class="topitems menu3"><u>V</u>iew</div>
+            <div class="topitems menu4"><u>I</u>mage</div>
+            <div class="topitems menu5"><u>C</u>olour</div>
+            <div class="topitems menu5"><u>H</u>elp</div>
+            </div>
+        </div>
+
+        <div class="item  item1">
+              <div class="tools">
+               <div class="tool_item button1" id="this"><img src="tool1.png" width="20px" height="20px"></div>
+               <div class="tool_item button2"><img src="tool2.png" width="20px" height="20px" alt=""></div>
+               <div class="tool_item button3"><img src="tool3.png" width="20px" height="20px" alt=""></div>
+               <div class="tool_item button4">d</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+               <div class="tool_item button5">e</div>
+             
+             
+             
+             
+              </div>
+        </div>
+
+        <div class=" item item2">
+            <canvas id="drawing_board" width="600px" height="800px" ></canvas>
+        </div>
+
+        <div class="item item3">
+            <div class="colorPanel">
+         <div class="colourpanel color1"></div>
+         <div class="colourpanel color2"></div>
+         <div class="colourpanel color3"></div>
+         <div class="colourpanel color4"></div>
+         <div class="colourpanel color5"></div>
+         <div class="colourpanel color6"></div>
+         <div class="colourpanel color7"></div>
+         <div class="colourpanel color8"></div>
+         <div class="colourpanel color9"></div>
+         <div class="colourpanel color10"></div>
+            </div>
+        </div>
+        <div class="item item4" id="item4"></div>
+        <!-- <div class="item item5">d5</div> -->
+    </div>
+   
     <script src="logic.js"></script>
 </body>
 </html>

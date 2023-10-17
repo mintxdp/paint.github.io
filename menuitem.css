@@ -1,0 +1,27 @@
+
+.item0{
+    display: grid;
+    place-items: start;
+    /* align-items: center; */
+}
+.menu{
+    display: grid; 
+    grid-template-rows: 20px;
+    grid-template-columns: 40px 40px 40px 50px 50px 
+   40px;
+    /* grid-template-columns: auto; */
+    /* text-align: center; */
+     
+}
+.topitems{
+    font-family:sans-serif ;
+    text-align: center;
+    font-size:13px;
+    /* text-align: center; */
+}
+.topitems:hover {
+    border-top: outset rgba(255, 255, 255, 1) 1.7px;
+border-left:outset rgba(255, 255, 255, 1) 1.7px;
+border-right:outset rgba(100, 100, 100,0.6) 1.9px;
+border-bottom:outset rgba(122, 122, 122,0.6) 1.9px;
+}
