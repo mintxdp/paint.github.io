@@ -1,0 +1,62 @@
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background:rgba(128, 128, 128, 0.356);  */
+   
+     z-index: -1;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb { 
+    border: solid rgba(128, 128, 
+  128, 0.527) 2px;
+    border: solid rgba(160, 152, 
+  152, 0.534) 2px;
+    border-style:outset;
+    background-color: rgba(114, 
+  114, 114, 0.404);
+  z-index: 1;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover 
+  {
+    background:rgba(114, 114, 
+  114, 0.6) ; 
+  }
+  ::-webkit-scrollbar-track-piece{
+      /* background-color: red; */
+      background-image: radial-gradient(rgb(94, 94, 94) 0.5px,
+       transparent 0px);
+ background-size: 3px 3px ;
+z-index: -1;
+      
+  }
+  ::-webkit-scrollbar-corner{
+      background-color: rgb(168, 
+  168, 168);
+  }
+  /* Buttons */
+  ::-webkit-scrollbar-button:single-button {
+      background-color: rgba(192, 192, 192, 1);
+      border: outset black 1px;
+      display: block;
+      height: 16px;
+      width: 16px;
+    }
+    /* Up */
+    ::-webkit-scrollbar-button:single-button:vertical:decrement 
+  {
+      background-color: rgba(192, 192, 192, 1);
+      border: outset black 2px;
+    }
+    /* Down */
+    ::-webkit-scrollbar-button:single-button:vertical:increment 
+  {
+      background-color: rgba(192, 192, 192, 1);
+      border: outset black 1px;
+    }
+    

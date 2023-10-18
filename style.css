@@ -81,56 +81,6 @@ canvas{
     grid-row-end: 5;
 }
 
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background:rgba(128, 128, 128, 0.356); 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb { 
-  border: solid rgba(128, 128, 128, 0.527) 2px;
-  border: solid rgba(160, 152, 152, 0.534) 2px;
-  border-style:outset;
-  background-color: rgba(114, 114, 114, 0.404);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background:rgba(114, 114, 114, 0.6) ; 
-}
-::-webkit-scrollbar-track-piece{
-    /* background-color: red; */
-}
-::-webkit-scrollbar-corner{
-    background-color: rgb(168, 168, 168);
-}
-/* Buttons */
-::-webkit-scrollbar-button:single-button {
-    background-color: rgba(192, 192, 192, 1);
-    border: solid black 2px;
-    border-style:outset;
-    display: block;
-    height: 13px;
-    width: 16px;
-  }
-  /* Up */
-  ::-webkit-scrollbar-button:single-button:vertical:decrement {
-    background-color: rgba(192, 192, 192, 1);
-    border: solid black 2px;
-    border-style:outset;
-  }
-  /* Down */
-  ::-webkit-scrollbar-button:single-button:vertical:increment {
-    background-color: rgba(192, 192, 192, 1);
-    border: solid black 2px;
-    border-style:outset;
-    border-style: outset;
-  }
-  
   
   
   

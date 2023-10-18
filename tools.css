@@ -7,10 +7,10 @@
     /* background-color: black; */     
 }
 .tool_item{
-border-top: outset rgba(255, 255, 255, 1) 1.7px;
+border-top: outset rgba(255, 255, 255, 1) 1px;
 border-left:outset rgba(255, 255, 255, 1) 1.7px;
-border-right:outset rgba(100, 100, 100,0.6) 1.9px;
-border-bottom:outset rgba(122, 122, 122,0.6) 1.9px;
+border-right:outset rgba(100, 100, 100,0.6) 2px;
+border-bottom:outset rgba(122, 122, 122,0.6) 2px;
 background-color: rgba(192, 192, 192, 1);
 }
 .button1{
